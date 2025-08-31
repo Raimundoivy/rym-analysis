@@ -35,9 +35,10 @@ This project scrapes, analyzes, and models data from Rate Your Music (RYM) to un
 
 ## Models
 
-This project includes several machine learning models:
+This project includes several machine learning models, which can be trained using `train_model.py` with the `--version` flag:
 
-*   **v2_RandomForest:** A RandomForest model using basic numerical and genre features.
+*   **Original:** A RandomForest model using basic numerical and genre features.
+*   **v2_RandomForest:** A RandomForest model using basic numerical and genre features, including review count.
 *   **v3_RandomForest_Desc:** A RandomForest model that adds TF-IDF vectorized album descriptors.
 *   **v4_XGBoost_Desc:** An XGBoost model with the same features as v3.
 *   **v5_Tuned_XGBoost_Desc:** The final, hyperparameter-tuned XGBoost model, which is used in the dashboard.
