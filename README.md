@@ -2,8 +2,6 @@
 
 **A comprehensive analysis and prediction project for music album ratings from Rate Your Music (RYM).**
 
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://shields.io/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python Version](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/)
 
 ## Project Description
@@ -110,14 +108,6 @@ You can set up the project in two ways:
     ```bash
     streamlit run dashboard.py
     ```
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a pull request or open an issue.
-
-## License
-
-This project is licensed under the MIT License - see the `LICENSE` file for details.
 
 ## Acknowledgments
 
